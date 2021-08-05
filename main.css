@@ -54,11 +54,11 @@ background: #fff; margin-right: 10px;}
 
 .section .color span.C_FFF {background: #FFF;} /*-----portfolio03 color -------*/
 .section .color span.C_333 {background: #333;} /*-----portfolio03 color -------*/
-.section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio03 color -------*/
+.section .color span.C_87CEEB {background: #87CEEB;} /*-----portfolio03 color -------*/
 
-.section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio05 color -------*/
-.section .color span.C_EBB9F5 {background: #EBB9F5} /*-----portfolio05 color -------*/
-.section .color span.C_0C0C31 {background: #0C0C31} /*-----portfolio05 color -------*/
+.section .color span.C_87CEEB {background: #87CEEB;} /*-----portfolio05 color -------*/
+.section .color span.C_EBB9F5 {background: #EBB9F5;} /*-----portfolio05 color -------*/
+.section .color span.C_0C0C31 {background: #0C0C31;} /*-----portfolio05 color -------*/
 
 /*---------------------section portfolio 재생 정지 아이콘------------------*/
 
@@ -202,11 +202,11 @@ top: 50%; left: 50%; transform: translate(-50%,-50%);}
 
     .section .color span.C_FFF {background: #FFF;} /*-----portfolio03 color -------*/
     .section .color span.C_333 {background: #333;} /*-----portfolio03 color -------*/
-    .section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio03 color -------*/
+    .section .color span.C_87CEEB {background: #87CEEB;} /*-----portfolio03 color -------*/
 
-    .section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio05 color -------*/
-    .section .color span.C_EBB9F5 {background: #EBB9F5} /*-----portfolio05 color -------*/
-    .section .color span.C_0C0C31 {background: #0C0C31} /*-----portfolio05 color -------*/
+    .section .color span.C_87CEEB {background: #87CEEB;} /*-----portfolio05 color -------*/
+    .section .color span.C_EBB9F5 {background: #EBB9F5;} /*-----portfolio05 color -------*/
+    .section .color span.C_0C0C31 {background: #0C0C31;} /*-----portfolio05 color -------*/
     
     .section .txt i {font-size: 24px; padding: 10px; background: #b2d6fa; margin-right: 10px;
     border-radius: 50%; color: #fff;}
