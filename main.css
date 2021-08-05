@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+
+body {color: #fff;}
+header h1 {position: fixed; top: 50px; left: 50px; z-index: 999;}
+header .mopen {position: fixed; top: 50px; right: 50px; font-size: 24px; z-index: 1000; color: skyblue;}
+header .mopen:after {content: "\e91c"; font-family: xeicon!important;}
+header .mopen.on:after {content: "\e921"; color: blue;}
+
+nav {position: fixed; top: 50%; right: 50px; transform: translateY(-50%); z-index: 999;}
+nav ul {width: 50px;}
+nav ul li a {display: block; height: 16px; text-indent: -9999px; position: relative;}
+nav ul li a:after {content: ""; display: block; width: 10px; height: 10px; border-radius: 50%; 
+    background: rgb(88, 187, 245); position: absolute; top: 9px; right: 0; transition: 0.4s;}
+nav ul li.on a:after {margin-right: 20px; background: blue;}
+
+.intro .video_intro {width: 100%; height: 100vh; overflow: hidden;}
+.intro .video_intro video{width: 2000px;}
+
+
+.intro .intro_slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); 
+    color: white; text-align: center;}
+.intro .intro_slogan h2 {font-size: 60px; font-family: 'WindSong', cursive;
+text-shadow: 1px 1px 0 #333; margin-bottom: 30px;}    
+.intro .intro_slogan p {font-size: 20px; font-weight: 100; text-shadow: 1px 1px 0 #333;}    
+
+.section {background:rgb(28, 29, 94) url(./bg03.png);}
+.section:nth-child(odd) {background:rgb(35, 63, 141) url(./bg03.png);}
+.section .container {display: flex; width: 1300px; margin: 0 auto;}
+.section .container>* {flex: 1; padding: 0 25px;}
+.section .container video {width: 100%;}
+.section .container h2 {font-size: 50px; font-family: 'WindSong', cursive; padding: 40px 0 0 0;
+margin-bottom: 24px;}
+.section .container p {font-weight: 100; line-height: 1.4; margin-bottom: 24px;}
+.section .container ul {font-weight: 100; line-height: 1.4; margin-bottom: 24px;}
+
+.section .color {display: flex;}
+.section .color li {margin-right: 20px;}
+.section .color span {display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+background: #fff; margin-right: 10px;}
+.section .color span.ff0000 {background: #ff0000;}
+.section .color span.ffff00 {background: #ffff00;}
+.section .color span.blue {background: #336699;}
+
+.section .txt i {font-size: 24px; padding: 10px; background: #b2d6fa; margin-right: 10px;
+border-radius: 50%;}
+
+.section .txt h3 {font-size: 20px; font-weight: 500; margin-bottom: 14px; text-transform: uppercase;}
+
+.section .txt a {display: block; width: 100px; height: 30px; line-height: 26px; text-align: center;
+border: 1px solid #fff; transition: 0.3s;}
+.section .txt a:hover {background: #336699;}
+
+.section .txt .font {display: flex;}
+.section .txt .font li {margin-right: 20px;}
+.section .video_case {background: url(./video_case.png) no-repeat; padding: 20px; position: relative;}
+.section .video_case video {border-radius: 20px;} 
+.section .video_case iframe {width: 100%; height: 310px; border-radius: 20px;}
+.section .video_case:before {content: ""; display: block; width: 100px; height: 100px;
+border-radius: 50%; background: rgba(0, 89, 255, 0.5); position: absolute; top: -30px; left: -30px; opacity: 0.7;}
+.section .video_case:after {content: ""; display: block; width: 60px; height: 60px;
+border-radius: 15px; background: rgba(133, 196, 255, 0.5); position: absolute; top: -50px; left: -50px; opacity: 0.5;}
+
+.section .web {display: block; border: 2px dashed skyblue; padding: 20px; border-radius: 30px;}
+.section .web_case {height: 400px; overflow: hidden;}
+.section .web_case img {width: 100%; position: relative; transition: 2s;}
+.section .web_case:hover img {transform:translateY(calc(-100% + 400px));}
+
+
+.section .visual_slider {width: 1300px; margin: 0 auto; z-index: 3;}
+.section .visual_slider figure {padding: 0 25px;}
+.section .visual_slider img {width: 100%; border-radius: 50%;}
+
+.section .slider_arrows i {position: absolute; top: 50%; left: 50%; font-size: 200px; color: rgb(88, 187, 245);
+z-index: 2;}
+
+.section .slider_arrows i.right {margin-left: 700px; transform:translate(-50%,-50%);} 
+.section .slider_arrows i.left {margin-left: -700px; transform:translate(-50%,-50%);} 
+
+.section .visual_slider .slick-dots{display: flex; justify-content: center;}
+.section .visual_slider .slick-dots li {width: 15px; height: 15px; background:skyblue;
+border-radius: 50%; margin: 20px 4px;}
+.section .visual_slider .slick-dots button {display: none;}
+.section .visual_slider .slick-dots li.slick-active {background: blue;}
+
+
+section .txt .slider_txt {font-size: 50px; font-family: 'WindSong', cursive; padding: 20px 0 0 0;
+    margin-bottom: 24px; text-align: center;}
+
+
+.section .info_case {padding: 30px 0; margin-left: auto; width: 180px;}
+.section .info_case img {width: 100%;}
+
+footer address {position: fixed; bottom: 50px; left: 50px; z-index: 999;}
+footer .to_top {position: fixed; bottom: 50px; right: 50px; font-size: 24px; z-index: 999;}
+
+.cover {position: fixed; top: 0; left: 0; width: 100%; height: 0; overflow: hidden; 
+    background: #f2f2f2 url(./bg03.png); transition: 0.8s; z-index: 999;}
+
+.cover.on {height: 100vh;}
+.cover .container {display:flex; color: #333; width: 1300px; position: absolute;
+top: 50%; left: 50%; transform: translate(-50%,-50%);}
+.cover .container>* {flex: 1; padding: 0 25px;}
+
+.cover .info_case img {width: 80%; border-radius: 50%;}
+.cover h2 {font-size: 50px; font-family: 'WindSong', cursive; padding: 40px 0 0 0;
+    margin-bottom: 24px;}
+.cover p {font-size: 14px; padding: 20px 0 20px 0;
+    margin-bottom: 24px; border-bottom: 1px dotted #333;}
+.cover li a {display: block; line-height: 30px;}
+.cover li a:before {content:"\ea0b"; font-family: xeicon!important; margin-right: 5px; color: #336699; transition: 0.3s;}
+.cover li a:after {content: "MORE"; margin-left: 20px; font-size: 8px; color: rgb(177, 177, 177); opacity: 0; transition: 0.3s;}
+
+
+.cover li a:hover:before {margin-right: 25px;}
+.cover li a:hover:after {opacity: 1;}
+
+
+
+
+
+/*--------------------------------여기서부터 768 반응형----------------------------------------------------------------*/
+
+
+
+
+
+
+
+@media (max-width:768px) {
+    body {color: #fff;}
+    header h1 {position: fixed; top: 30px; left: 30px; z-index: 999;}
+    header .mopen {position: fixed; top: 30px; right: 30px; font-size: 24px; z-index: 1000; color: skyblue;}
+    header .mopen:after {content: "\e91c"; font-family: xeicon!important;}
+    header .mopen.on:after {content: "\e921"; color: blue;}
+    
+    nav {display: none; position: fixed; top: 50%; right: 30px; transform: translateY(-50%); z-index: 999;}
+    nav ul {width: 50px;}
+    nav ul li a {display: block; height: 16px; text-indent: -9999px; position: relative;}
+    nav ul li a:after {content: ""; display: block; width: 10px; height: 10px; border-radius: 50%; 
+        background: rgb(88, 187, 245); position: absolute; top: 9px; right: 0; transition: 0.4s;}
+    nav ul li.on a:after {transform: translateX(-10px); background: blue;}
+    
+    .intro .video_intro {width: 100%; height: 100vh; overflow: hidden;}
+    .intro .video_intro video{width: auto; height: 100vh;}
+    
+    
+    .intro .intro_slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); 
+        color: white; text-align: center; padding: 0 15px;}
+    .intro .intro_slogan h2 {font-size: 30px; font-family: 'WindSong', cursive;
+    text-shadow: 1px 1px 0 #333; margin-bottom: 30px;}    
+    .intro .intro_slogan p {font-size: 16px; font-weight: 100; text-shadow: 1px 1px 0 #333; line-height: 1.6;}    
+    
+    .section {background:rgb(28, 29, 94) url(./bg03.png);}
+    .section:nth-child(odd) {background:rgb(35, 63, 141) url(./bg03.png);}
+    .section .container {display: flex; flex-direction: column; width: auto; margin: 0 auto;}
+    .section .container>* {flex: 1; padding: 15px 25px;}
+    .section .container video {width: 100%;}
+    .section .container h2 {font-size: 50px; font-family: 'WindSong', cursive; padding: 0 0 0 0;
+    margin-bottom: 24px;}
+    .section .container p {font-weight: 100; line-height: 1.4; margin-bottom: 24px;}
+    .section .container ul {font-weight: 100; line-height: 1.4; margin-bottom: 24px;}
+    
+    .section .color {display: flex;}
+    .section .color li {margin-right: 20px;}
+    .section .color span {display: inline-block; width: 12px; height: 12px; border-radius: 50%;
+    background: #fff; margin-right: 10px;}
+    .section .color span.ff0000 {background: #ff0000;}
+    .section .color span.ffff00 {background: #ffff00;}
+    .section .color span.blue {background: #336699;}
+    
+    .section .txt i {font-size: 24px; padding: 10px; background: #b2d6fa; margin-right: 10px;
+    border-radius: 50%; color: #fff;}
+    
+    .section .txt h3 {font-size: 20px; font-weight: 500; margin-bottom: 14px; text-transform: uppercase;}
+    
+    .section .txt a {display: block; width: 100px; height: 30px; line-height: 26px; text-align: center;
+    border: 1px solid #fff; transition: 0.3s;}
+    .section .txt a:hover {background: #336699;}
+    
+    .section .txt .font {display: flex;}
+    .section .txt .font li {margin-right: 20px;}
+    .section .video_case {background: url(./video_case.png) no-repeat; padding: 0; position: relative;  border: 3px solid #f2f2f2;}
+    .section .video_case video {border-radius: 0;} 
+    .section .video_case iframe {width: 100%; height: 200px; border-radius: 0;}
+    .section .video_case:before {content: ""; display: block; width: 40px; height: 40px;
+    border-radius: 50%; background: rgba(0, 89, 255, 0.5); position: absolute; bottom:-10px; right:-10px; top: auto; left: auto; opacity: 0.7;}
+    .section .video_case:after {content: ""; display: block; width: 20px; height: 20px;
+    border-radius: 50%; background: rgba(133, 196, 255, 0.5); position: absolute; top: -30px; left: -30px; opacity: 0.5;}
+    
+    .section .web {display: block; border: 0 dashed skyblue; padding: 0; border-radius: 0; border: 3px solid #f2f2f2;}
+    .section .web_case {height: 200px; overflow: hidden;}
+    .section .web_case img {width: 100%; position: relative; transition: 2s;}
+    .section .web_case:hover img {transform:translateY(0);}
+    
+    .portfolio03 .txt .color {display: none;}
+    .portfolio03 .txt .font {display: none;}
+    .portfolio03 h3 {display: none;}
+
+
+
+    .section .visual_slider {width: auto; margin: 0 auto; z-index: 3;}
+    .section .visual_slider figure {padding: 0 25px;}
+    .section .visual_slider img {width: 100%; border-radius: 50%;}
+    
+    .section .slider_arrows i {position: absolute; top: 50%; left: 50%; left: auto; font-size: 50px; color: rgb(88, 187, 245);
+    z-index: 4;}
+    
+    .section .slider_arrows i.right {margin-left: 0; transform:translate(0,0); right: 30px;} 
+    .section .slider_arrows i.left {margin-left: 0; transform:translate(0,0); left: 30px;} 
+    
+    .section .visual_slider .slick-dots{display: flex; justify-content: center;}    
+    .section .visual_slider .slick-dots li {width: 15px; height: 15px; background:skyblue;
+    border-radius: 50%; margin: 20px 4px;}
+    .section .visual_slider .slick-dots button {display: none;}
+    .section .visual_slider .slick-dots li.slick-active {background: blue;}
+    
+    
+    section .txt .slider_txt {font-size: 50px; font-family: 'WindSong', cursive; padding: 20px 0 0 0;
+        margin-bottom: 24px; text-align: center;}
+    
+    .info {padding: 30px 0;}
+
+    .section .info_case {padding: 30px 0; margin-left: auto; width: 180px;}
+    .section .info_case img {width: 100%;}
+    
+    footer address {position: fixed; bottom: 30px; left: 30px; z-index: 999;}
+    footer .to_top {position: fixed; bottom: 30px; right: 30px; font-size: 24px; z-index: 999;}
+    
+    .cover {position: fixed; top: 0; left: 0; width: 100%; height: 0; overflow: hidden; 
+        background: #f2f2f2 url(./bg03.png); transition: 0.8s; z-index: 999;}
+    
+    .cover.on {height: 100vh;}
+    .cover .container {display:flex; flex-direction: column; color: #333; width: 100%; position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%,-50%);}
+    .cover .container>* {flex: 1; padding: 0 25px;}
+    
+    .cover .info_case img {width: 70%; border-radius: 50%;}
+    .cover h2 {font-size: 30px; font-family: 'WindSong', cursive; padding: 20px 0 0 0;
+        margin-bottom: 0;}
+    .cover p {font-size: 14px; padding: 20px 0 20px 0;
+        margin-bottom: 18px; border-bottom: 1px dotted #333;}
+    .cover li a {display: block; line-height: 20px;}
+    .cover li a:before {content:"\ea0b"; font-family: xeicon!important; margin-right: 5px; color: #336699; transition: 0.3s;}
+    .cover li a:after {content: "MORE"; margin-left: 20px; font-size: 8px; color: rgb(177, 177, 177); opacity: 0; transition: 0.3s;}
+    
+    
+    .cover li a:hover:before {margin-right: 25px;}
+    .cover li a:hover:after {opacity: 1;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+        * {padding: 0; margin: 0; font-size: inherit; font-weight: inherit; box-sizing: border-box; color: inherit;} /*inherit 은 상속을받아라는 용어 */
+        ul,ol,li,dl,dt,dd {list-style: none;}
+        a {text-decoration: none;}
+        img {vertical-align: middle;}
+        input, button,select,option {background: transparent; outline: none; border: none;}
+        body {color: #333; font-family:'Noto Sans KR', sans-serif; line-height: 1;}
+
+
+        
+
+
+
+
+
+
+
