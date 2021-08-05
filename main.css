@@ -194,9 +194,19 @@ top: 50%; left: 50%; transform: translate(-50%,-50%);}
     .section .color li {margin-right: 20px;}
     .section .color span {display: inline-block; width: 12px; height: 12px; border-radius: 50%;
     background: #fff; margin-right: 10px;}
-    .section .color span.ff0000 {background: #ff0000;}
-    .section .color span.ffff00 {background: #ffff00;}
-    .section .color span.blue {background: #336699;}
+    .section .color span.C_070922 {background: #070922;} /*-----portfolio01 color -------*/
+    .section .color span.C_336699 {background: #336699;} /*-----portfolio01 color -------*/
+
+    .section .color span.C_91C4FD {background: #91C4FD;} /*-----portfolio02 color -------*/
+    .section .color span.C_152457 {background: #152457;} /*-----portfolio02 color -------*/
+
+    .section .color span.C_FFF {background: #FFF;} /*-----portfolio03 color -------*/
+    .section .color span.C_333 {background: #333;} /*-----portfolio03 color -------*/
+    .section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio03 color -------*/
+
+    .section .color span.C_87CEEB {background: #87CEEB} /*-----portfolio05 color -------*/
+    .section .color span.C_EBB9F5 {background: #EBB9F5} /*-----portfolio05 color -------*/
+    .section .color span.C_0C0C31 {background: #0C0C31} /*-----portfolio05 color -------*/
     
     .section .txt i {font-size: 24px; padding: 10px; background: #b2d6fa; margin-right: 10px;
     border-radius: 50%; color: #fff;}
