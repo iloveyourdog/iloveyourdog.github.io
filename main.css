@@ -146,9 +146,9 @@ top: 50%; left: 50%; transform: translate(-50%,-50%);}
     
     .intro .intro_slogan {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); 
         color: white; text-align: center; padding: 0 15px;}
-    .intro .intro_slogan h2 {font-size: 30px; font-family: 'WindSong', cursive;
+    .intro .intro_slogan h2 {font-size: 22px; font-family: 'WindSong', cursive;
     text-shadow: 1px 1px 0 #333; margin-bottom: 30px;}    
-    .intro .intro_slogan p {font-size: 16px; font-weight: 100; text-shadow: 1px 1px 0 #333; line-height: 1.6;}    
+    .intro .intro_slogan p {font-size: 12px; font-weight: 100; text-shadow: 1px 1px 0 #333; line-height: 1.6;}    
     
     .section {background:rgb(28, 29, 94) url(./bg03.png);}
     .section:nth-child(odd) {background:rgb(35, 63, 141) url(./bg03.png);}
@@ -237,7 +237,7 @@ top: 50%; left: 50%; transform: translate(-50%,-50%);}
     .cover .info_case img {width: 70%; border-radius: 50%;}
     .cover h2 {font-size: 30px; font-family: 'WindSong', cursive; padding: 20px 0 0 0;
         margin-bottom: 0;}
-    .cover p {font-size: 14px; padding: 20px 0 20px 0;
+    .cover p {font-size: 1px; padding: 20px 0 20px 0;
         margin-bottom: 18px; border-bottom: 1px dotted #333;}
     .cover li a {display: block; line-height: 20px;}
     .cover li a:before {content:"\ea0b"; font-family: xeicon!important; margin-right: 5px; color: #336699; transition: 0.3s;}
